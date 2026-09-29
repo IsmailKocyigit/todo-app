@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.app-header {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #222;
+  color: white;
+}
+
+.app-header h1 {
+  margin: 0 0 10px;
+}
+
+.app-header p {
+  margin: 0;
+}
+
+.app-content {
+  width: min(900px, 90%);
+  margin: 40px auto;
+}
+
+.todo-form-section,
+.todo-list-section {
+  margin-bottom: 40px;
+}
+
+.todo-form-section h2,
+.todo-list-section h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  padding: 25px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #222;
+  color: white;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.todo-card {
+  padding: 25px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.todo-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.todo-card p {
+  line-height: 1.5;
+}
+
+.todo-date {
+  font-size: 14px;
+  color: #666;
+}
+
+.todo-status {
+  margin: 20px 0;
+}
+
+.todo-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.todo-actions button {
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
